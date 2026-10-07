@@ -40,9 +40,3 @@ A curated collection of high-performance, pure SwiftUI visual effects, custom gr
 * Xcode 15.0 or later
 * iOS 17.0+ SDK
 * Swift 5.9+
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/Visuals.git](https://github.com/YOUR_GITHUB_USERNAME/Visuals.git)
