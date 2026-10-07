@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E423F6DF3076960500AF00E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E423F6DA3076960500AF00E7 /* Assets.xcassets */; };
+		E423F6E03076960500AF00E7 /* ChromaticAberrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6C03076960500AF00E7 /* ChromaticAberrationView.swift */; };
+		E423F6E13076960500AF00E7 /* ConstellationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6C23076960500AF00E7 /* ConstellationNode.swift */; };
+		E423F6E23076960500AF00E7 /* GlassmorphicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6C43076960500AF00E7 /* GlassmorphicCardView.swift */; };
+		E423F6E33076960500AF00E7 /* LiquidMetaballsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6C63076960500AF00E7 /* LiquidMetaballsView.swift */; };
+		E423F6E93076960500AF00E7 /* SiriWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6CF3076960500AF00E7 /* SiriWaveformView.swift */; };
+		E423F6EA3076960500AF00E7 /* SiriWaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D03076960500AF00E7 /* SiriWaveShape.swift */; };
+		E423F6EC3076960500AF00E7 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D33076960500AF00E7 /* Particle.swift */; };
+		E423F6ED3076960500AF00E7 /* PhysicsParticleCloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D43076960500AF00E7 /* PhysicsParticleCloudView.swift */; };
+		E423F6EF3076960500AF00E7 /* ThreeBouncingDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D73076960500AF00E7 /* ThreeBouncingDotsView.swift */; };
+		E423F6F03076960500AF00E7 /* AppleIntelligenceGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D93076960500AF00E7 /* AppleIntelligenceGlowView.swift */; };
+		E423F6F23076960500AF00E7 /* VisualEffectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6DC3076960500AF00E7 /* VisualEffectItem.swift */; };
+		E423F6F33076960500AF00E7 /* VisualsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6DD3076960500AF00E7 /* VisualsApp.swift */; };
+		E423F6F83076992500AF00E7 /* EffectsListMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6F73076992500AF00E7 /* EffectsListMenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E423F66F307648BE00AF00E7 /* Visuals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visuals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E423F6C03076960500AF00E7 /* ChromaticAberrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaticAberrationView.swift; sourceTree = "<group>"; };
+		E423F6C23076960500AF00E7 /* ConstellationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationNode.swift; sourceTree = "<group>"; };
+		E423F6C43076960500AF00E7 /* GlassmorphicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphicCardView.swift; sourceTree = "<group>"; };
+		E423F6C63076960500AF00E7 /* LiquidMetaballsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidMetaballsView.swift; sourceTree = "<group>"; };
+		E423F6CF3076960500AF00E7 /* SiriWaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriWaveformView.swift; sourceTree = "<group>"; };
+		E423F6D03076960500AF00E7 /* SiriWaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriWaveShape.swift; sourceTree = "<group>"; };
+		E423F6D33076960500AF00E7 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		E423F6D43076960500AF00E7 /* PhysicsParticleCloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsParticleCloudView.swift; sourceTree = "<group>"; };
+		E423F6D73076960500AF00E7 /* ThreeBouncingDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBouncingDotsView.swift; sourceTree = "<group>"; };
+		E423F6D93076960500AF00E7 /* AppleIntelligenceGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleIntelligenceGlowView.swift; sourceTree = "<group>"; };
+		E423F6DA3076960500AF00E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E423F6DC3076960500AF00E7 /* VisualEffectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectItem.swift; sourceTree = "<group>"; };
+		E423F6DD3076960500AF00E7 /* VisualsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualsApp.swift; sourceTree = "<group>"; };
+		E423F6F73076992500AF00E7 /* EffectsListMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsListMenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E423F66C307648BE00AF00E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E423F666307648BE00AF00E7 = {
+			isa = PBXGroup;
+			children = (
+				E423F6DE3076960500AF00E7 /* Visuals */,
+				E423F670307648BE00AF00E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E423F670307648BE00AF00E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E423F66F307648BE00AF00E7 /* Visuals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E423F6C13076960500AF00E7 /* Chromatic Aberration */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6C03076960500AF00E7 /* ChromaticAberrationView.swift */,
+			);
+			path = "Chromatic Aberration";
+			sourceTree = "<group>";
+		};
+		E423F6C33076960500AF00E7 /* ConstellationNode */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6C23076960500AF00E7 /* ConstellationNode.swift */,
+			);
+			path = ConstellationNode;
+			sourceTree = "<group>";
+		};
+		E423F6C53076960500AF00E7 /* GlassCard */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6C43076960500AF00E7 /* GlassmorphicCardView.swift */,
+			);
+			path = GlassCard;
+			sourceTree = "<group>";
+		};
+		E423F6C73076960500AF00E7 /* Liquid Blobs */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6C63076960500AF00E7 /* LiquidMetaballsView.swift */,
+			);
+			path = "Liquid Blobs";
+			sourceTree = "<group>";
+		};
+		E423F6D13076960500AF00E7 /* SiriWave */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6CF3076960500AF00E7 /* SiriWaveformView.swift */,
+				E423F6D03076960500AF00E7 /* SiriWaveShape.swift */,
+			);
+			path = SiriWave;
+			sourceTree = "<group>";
+		};
+		E423F6D63076960500AF00E7 /* PhysicsParticleSphere */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6D33076960500AF00E7 /* Particle.swift */,
+				E423F6D43076960500AF00E7 /* PhysicsParticleCloudView.swift */,
+			);
+			path = PhysicsParticleSphere;
+			sourceTree = "<group>";
+		};
+		E423F6D83076960500AF00E7 /* BouncingDots */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6D73076960500AF00E7 /* ThreeBouncingDotsView.swift */,
+			);
+			path = BouncingDots;
+			sourceTree = "<group>";
+		};
+		E423F6DE3076960500AF00E7 /* Visuals */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6DA3076960500AF00E7 /* Assets.xcassets */,
+				E423F6C13076960500AF00E7 /* Chromatic Aberration */,
+				E423F6C33076960500AF00E7 /* ConstellationNode */,
+				E423F6C53076960500AF00E7 /* GlassCard */,
+				E423F6C73076960500AF00E7 /* Liquid Blobs */,
+				E423F6D13076960500AF00E7 /* SiriWave */,
+				E423F6D63076960500AF00E7 /* PhysicsParticleSphere */,
+				E423F6D83076960500AF00E7 /* BouncingDots */,
+				E423F6F63076966A00AF00E7 /* AppleIntelligenceGlowView */,
+				E423F6F93076994000AF00E7 /* Menus */,
+				E423F6DD3076960500AF00E7 /* VisualsApp.swift */,
+			);
+			path = Visuals;
+			sourceTree = "<group>";
+		};
+		E423F6F63076966A00AF00E7 /* AppleIntelligenceGlowView */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6D93076960500AF00E7 /* AppleIntelligenceGlowView.swift */,
+			);
+			path = AppleIntelligenceGlowView;
+			sourceTree = "<group>";
+		};
+		E423F6F93076994000AF00E7 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6DC3076960500AF00E7 /* VisualEffectItem.swift */,
+				E423F6F73076992500AF00E7 /* EffectsListMenuView.swift */,
+			);
+			path = Menus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E423F66E307648BE00AF00E7 /* Visuals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E423F67A307648C000AF00E7 /* Build configuration list for PBXNativeTarget "Visuals" */;
+			buildPhases = (
+				E423F66B307648BE00AF00E7 /* Sources */,
+				E423F66C307648BE00AF00E7 /* Frameworks */,
+				E423F66D307648BE00AF00E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Visuals;
+			packageProductDependencies = (
+			);
+			productName = Visuals;
+			productReference = E423F66F307648BE00AF00E7 /* Visuals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E423F667307648BE00AF00E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					E423F66E307648BE00AF00E7 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = E423F66A307648BE00AF00E7 /* Build configuration list for PBXProject "Visuals" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E423F666307648BE00AF00E7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E423F670307648BE00AF00E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E423F66E307648BE00AF00E7 /* Visuals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E423F66D307648BE00AF00E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E423F6DF3076960500AF00E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E423F66B307648BE00AF00E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E423F6F83076992500AF00E7 /* EffectsListMenuView.swift in Sources */,
+				E423F6E03076960500AF00E7 /* ChromaticAberrationView.swift in Sources */,
+				E423F6E13076960500AF00E7 /* ConstellationNode.swift in Sources */,
+				E423F6E23076960500AF00E7 /* GlassmorphicCardView.swift in Sources */,
+				E423F6E33076960500AF00E7 /* LiquidMetaballsView.swift in Sources */,
+				E423F6E93076960500AF00E7 /* SiriWaveformView.swift in Sources */,
+				E423F6EA3076960500AF00E7 /* SiriWaveShape.swift in Sources */,
+				E423F6EC3076960500AF00E7 /* Particle.swift in Sources */,
+				E423F6ED3076960500AF00E7 /* PhysicsParticleCloudView.swift in Sources */,
+				E423F6EF3076960500AF00E7 /* ThreeBouncingDotsView.swift in Sources */,
+				E423F6F03076960500AF00E7 /* AppleIntelligenceGlowView.swift in Sources */,
+				E423F6F23076960500AF00E7 /* VisualEffectItem.swift in Sources */,
+				E423F6F33076960500AF00E7 /* VisualsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E423F678307648C000AF00E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PR95N5L7QU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E423F679307648C000AF00E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PR95N5L7QU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E423F67B307648C000AF00E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR95N5L7QU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_LANGUAGE_REVISION = Metal31;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.ag.Visuals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E423F67C307648C000AF00E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR95N5L7QU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_LANGUAGE_REVISION = Metal31;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.ag.Visuals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E423F66A307648BE00AF00E7 /* Build configuration list for PBXProject "Visuals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E423F678307648C000AF00E7 /* Debug */,
+				E423F679307648C000AF00E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E423F67A307648C000AF00E7 /* Build configuration list for PBXNativeTarget "Visuals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E423F67B307648C000AF00E7 /* Debug */,
+				E423F67C307648C000AF00E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E423F667307648BE00AF00E7 /* Project object */;
+}
