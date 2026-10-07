@@ -18,9 +18,14 @@
 		E423F6ED3076960500AF00E7 /* PhysicsParticleCloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D43076960500AF00E7 /* PhysicsParticleCloudView.swift */; };
 		E423F6EF3076960500AF00E7 /* ThreeBouncingDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D73076960500AF00E7 /* ThreeBouncingDotsView.swift */; };
 		E423F6F03076960500AF00E7 /* AppleIntelligenceGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D93076960500AF00E7 /* AppleIntelligenceGlowView.swift */; };
-		E423F6F23076960500AF00E7 /* VisualEffectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6DC3076960500AF00E7 /* VisualEffectItem.swift */; };
+		E423F6F23076960500AF00E7 /* EffectsShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6DC3076960500AF00E7 /* EffectsShowcaseView.swift */; };
 		E423F6F33076960500AF00E7 /* VisualsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6DD3076960500AF00E7 /* VisualsApp.swift */; };
 		E423F6F83076992500AF00E7 /* EffectsListMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F6F73076992500AF00E7 /* EffectsListMenuView.swift */; };
+		E4BE6EBE30769CB80051ED6C /* Shaders.metal in Resources */ = {isa = PBXBuildFile; fileRef = E4BE6EBD30769CB80051ED6C /* Shaders.metal */; };
+		E4BE6EC030769CC90051ED6C /* MetalRippleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE6EBF30769CC90051ED6C /* MetalRippleView.swift */; };
+		E4BE6EC230769CE40051ED6C /* VisualEffectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE6EC130769CE40051ED6C /* VisualEffectItem.swift */; };
+		E4BE6EC430769DF10051ED6C /* MetalWaterCausticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE6EC330769DF10051ED6C /* MetalWaterCausticsView.swift */; };
+		E4BE6EC630769E580051ED6C /* MetalGlitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE6EC530769E580051ED6C /* MetalGlitchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +41,14 @@
 		E423F6D73076960500AF00E7 /* ThreeBouncingDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBouncingDotsView.swift; sourceTree = "<group>"; };
 		E423F6D93076960500AF00E7 /* AppleIntelligenceGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleIntelligenceGlowView.swift; sourceTree = "<group>"; };
 		E423F6DA3076960500AF00E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E423F6DC3076960500AF00E7 /* VisualEffectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectItem.swift; sourceTree = "<group>"; };
+		E423F6DC3076960500AF00E7 /* EffectsShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsShowcaseView.swift; sourceTree = "<group>"; };
 		E423F6DD3076960500AF00E7 /* VisualsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualsApp.swift; sourceTree = "<group>"; };
 		E423F6F73076992500AF00E7 /* EffectsListMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsListMenuView.swift; sourceTree = "<group>"; };
+		E4BE6EBD30769CB80051ED6C /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		E4BE6EBF30769CC90051ED6C /* MetalRippleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRippleView.swift; sourceTree = "<group>"; };
+		E4BE6EC130769CE40051ED6C /* VisualEffectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectItem.swift; sourceTree = "<group>"; };
+		E4BE6EC330769DF10051ED6C /* MetalWaterCausticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalWaterCausticsView.swift; sourceTree = "<group>"; };
+		E4BE6EC530769E580051ED6C /* MetalGlitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalGlitchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +148,7 @@
 				E423F6D63076960500AF00E7 /* PhysicsParticleSphere */,
 				E423F6D83076960500AF00E7 /* BouncingDots */,
 				E423F6F63076966A00AF00E7 /* AppleIntelligenceGlowView */,
+				E4BE6EBC30769CA10051ED6C /* New Group */,
 				E423F6F93076994000AF00E7 /* Menus */,
 				E423F6DD3076960500AF00E7 /* VisualsApp.swift */,
 			);
@@ -155,10 +166,22 @@
 		E423F6F93076994000AF00E7 /* Menus */ = {
 			isa = PBXGroup;
 			children = (
-				E423F6DC3076960500AF00E7 /* VisualEffectItem.swift */,
+				E4BE6EC130769CE40051ED6C /* VisualEffectItem.swift */,
+				E423F6DC3076960500AF00E7 /* EffectsShowcaseView.swift */,
 				E423F6F73076992500AF00E7 /* EffectsListMenuView.swift */,
 			);
 			path = Menus;
+			sourceTree = "<group>";
+		};
+		E4BE6EBC30769CA10051ED6C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E4BE6EBD30769CB80051ED6C /* Shaders.metal */,
+				E4BE6EBF30769CC90051ED6C /* MetalRippleView.swift */,
+				E4BE6EC330769DF10051ED6C /* MetalWaterCausticsView.swift */,
+				E4BE6EC530769E580051ED6C /* MetalGlitchView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BE6EBE30769CB80051ED6C /* Shaders.metal in Resources */,
 				E423F6DF3076960500AF00E7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,18 +257,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BE6EC030769CC90051ED6C /* MetalRippleView.swift in Sources */,
+				E4BE6EC230769CE40051ED6C /* VisualEffectItem.swift in Sources */,
 				E423F6F83076992500AF00E7 /* EffectsListMenuView.swift in Sources */,
 				E423F6E03076960500AF00E7 /* ChromaticAberrationView.swift in Sources */,
 				E423F6E13076960500AF00E7 /* ConstellationNode.swift in Sources */,
 				E423F6E23076960500AF00E7 /* GlassmorphicCardView.swift in Sources */,
 				E423F6E33076960500AF00E7 /* LiquidMetaballsView.swift in Sources */,
+				E4BE6EC430769DF10051ED6C /* MetalWaterCausticsView.swift in Sources */,
 				E423F6E93076960500AF00E7 /* SiriWaveformView.swift in Sources */,
+				E4BE6EC630769E580051ED6C /* MetalGlitchView.swift in Sources */,
 				E423F6EA3076960500AF00E7 /* SiriWaveShape.swift in Sources */,
 				E423F6EC3076960500AF00E7 /* Particle.swift in Sources */,
 				E423F6ED3076960500AF00E7 /* PhysicsParticleCloudView.swift in Sources */,
 				E423F6EF3076960500AF00E7 /* ThreeBouncingDotsView.swift in Sources */,
 				E423F6F03076960500AF00E7 /* AppleIntelligenceGlowView.swift in Sources */,
-				E423F6F23076960500AF00E7 /* VisualEffectItem.swift in Sources */,
+				E423F6F23076960500AF00E7 /* EffectsShowcaseView.swift in Sources */,
 				E423F6F33076960500AF00E7 /* VisualsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct VisualsApp: App {
     var body: some Scene {
         WindowGroup {
-            EffectsListMenuView()
+            EffectsShowcaseView()
         }
     }
 }

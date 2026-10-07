@@ -67,6 +67,27 @@ struct EffectsListMenuView: View {
             icon: "text.bubble",
             accentColor: .orange,
             viewType: .bouncingDots
+        ),
+        VisualEffectItem(
+            name: "MetalRipple",
+            subtitle: "",
+            icon: "text.bubble",
+            accentColor: .red,
+            viewType: .metalRipple
+        ),
+        VisualEffectItem(
+            name: "MetalCaustic",
+            subtitle: "",
+            icon: "text.bubble",
+            accentColor: .cyan,
+            viewType: .waterCaustics
+        ),
+        VisualEffectItem(
+            name: "MetalGlitch",
+            subtitle: "",
+            icon: "text.bubble",
+            accentColor: .purple,
+            viewType: .metalGlitch
         )
     ]
 
@@ -193,6 +214,12 @@ private struct EffectDetailStageView: View {
                             .frame(maxWidth: .infinity, maxHeight: 150)
                         case .sphere:
                             PhysicsParticleCloudView()
+                        case .metalRipple:
+                            MetalRippleView()
+                        case .metalGlitch:
+                            MetalGlitchView()
+                        case .waterCaustics:
+                            MetalWaterCausticsView()
                         }
                     }
                     .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
